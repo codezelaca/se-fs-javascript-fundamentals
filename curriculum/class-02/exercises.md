@@ -514,8 +514,6 @@ Before submitting, make sure:
 - [ ] Variable names are clear
 - [ ] Code is formatted nicely
 
-**Deadline:** Before Class 3 (React)
-
 Good luck! 🚀
 
 ---
