@@ -341,7 +341,7 @@ const departments = [
 ## Submission
 - Complete exercises in a JavaScript file
 - Test all your solutions
-- Submit via [submission link]
+- Submit via your lms
 - Deadline: Before Class 2
 
 Good luck! 🚀
