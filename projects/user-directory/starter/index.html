@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Directory App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>👥 User Directory</h1>
+            <p>Browse users from JSONPlaceholder API</p>
+        </header>
+
+        <!-- Search and Filters -->
+        <div class="controls">
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Search users by name..."
+                    class="search-input"
+                >
+            </div>
+
+            <!-- Optional: Filter by company -->
+            <!-- <div class="filter-box">
+                <label for="companyFilter">Filter by company:</label>
+                <select id="companyFilter" class="filter-select">
+                    <option value="all">All Companies</option>
+                </select>
+            </div> -->
+        </div>
+
+        <!-- Loading State -->
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Loading users...</p>
+        </div>
+
+        <!-- Error State -->
+        <div id="error" class="error hidden">
+            <p class="error-message"></p>
+            <button id="retryBtn" class="btn btn-retry">Try Again</button>
+        </div>
+
+        <!-- Users List -->
+        <div id="usersList" class="users-list">
+            <!-- User cards will be inserted here -->
+        </div>
+
+        <!-- No Results -->
+        <div id="noResults" class="no-results hidden">
+            <p>No users found matching your search.</p>
+        </div>
+
+        <!-- User Detail Modal (Optional for Level 2) -->
+        <div id="userModal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <div id="userDetail">
+                    <!-- User detail content will be inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Modules -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>
