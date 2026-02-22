@@ -15,3 +15,7 @@
 ## Cross-Class Reference
 
 - [Combined Cheat Sheet](references/combined-cheatsheet.md)
+
+## Optional Self-Study
+
+- [Bonus Learning Roadmap](../BONUS_LEARNING_ROADMAP.md)

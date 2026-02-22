@@ -3,6 +3,10 @@
 Structured learning pathway for JavaScript fundamentals in a software engineering bootcamp flow.  
 This repository is organized for instructor delivery and student use across two classes plus one mini project.
 
+## Scope
+
+Core bootcamp scope = Class 1 + Class 2 + mini project.
+
 ## Learning Outcomes
 
 By the end of this pathway, students should be able to:
@@ -29,6 +33,12 @@ By the end of this pathway, students should be able to:
 [Reference Solution](projects/user-directory/solution/mini-project-solution.js)
 4. Full Reference  
 [Combined Cheat Sheet](curriculum/references/combined-cheatsheet.md)
+
+## Beyond Essentials (Optional)
+
+For broader JavaScript depth beyond this bootcamp scope, use the optional self-study roadmap:
+
+- [Bonus Learning Roadmap](BONUS_LEARNING_ROADMAP.md)
 
 ## Repository Structure
 
@@ -109,6 +119,8 @@ dist/student-exports/<timestamp>/
 ├── day-01.zip
 └── day-02.zip
 ```
+
+Generated exports are local artifacts and should not be committed.
 
 ## License
 
